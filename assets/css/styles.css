@@ -1,0 +1,220 @@
+/* page-1 styles */
+
+/* navbar styles */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-family: cursive;
+}
+.header-1{
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.6);
+}
+/* content */
+.page-1-content{
+    padding-top: 60px;
+}
+.page-1-content-brief{
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    height: 50vw;
+    padding: 9% 0 0 9%;
+}
+.content-head.row {
+    width: 73%;
+}
+.content-head h1{
+    font-size: 7vw;
+}
+.content-para h5{
+    font-size:3vw;
+}
+.m-top {
+    margin-top: 1vw;
+}
+.page-1-btn.row {
+    width: 73vw;
+}
+@media screen and (min-width:280px){
+    .shop-now-btn button,
+    .find-more-btn button {
+        height: 121%;
+        width: 20vw;
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width:279px){
+    .shop-now-btn button,
+    .find-more-btn button {
+        height: 79%;
+        width: 20vw;
+        font-size: 1vw;
+    }
+}
+@media screen and (max-width:420px){
+    .page-1-content-brief {
+        padding: 1% 0 0 9%;
+    }
+}
+@media  screen and (max-width:575px) {
+    .page-1-btn.row {
+        width: 50vw;
+    }
+}
+@media  screen and (max-width:217px) {
+    .content-head.row {
+        width: 100%;
+    }
+}
+
+/* page-2 styles */
+.page-2{
+    min-height:100vh;
+}
+@media screen and (max-width:1024px){
+    
+    .page-2-head ul li{
+        list-style-type:none;
+        font-weight: 700;
+        font-size: 2vw;
+    }
+}
+.page-2-head ul li{
+    list-style-type:none;
+    font-weight: 700;
+}
+@media  screen and (max-width:767px) {
+    .page-2-head ul li{
+        font-size: medium;
+    }
+}
+.page-2-img{
+    width: 100%;
+    height: 408px;
+    object-fit: cover;
+    object-position: top;
+    filter: brightness(0.5);
+}
+.page-2-img:hover{
+    transition: .7s;
+    filter: brightness(1);
+}
+/* .page-2-image::before{
+    content: '';
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0,0,.6);
+} */
+.offer-details.text-light {
+    position: absolute;
+    bottom: 30px;
+    left: 36px;
+    width: 80%;
+}
+.offer-details .od-btn button{
+    font-weight: 500;
+}
+@media screen and (min-width:870px) and (max-width:991px){
+    .page-2-head ul li{
+        font-size: 100%;
+    }
+}
+ /* page-3 styles*/
+.page-3{
+    background-color: #80808030;;
+}
+.card-body p del{
+    margin:3% !important;
+}
+/* page-4 styles */
+.pad-0{
+    padding-top: 0px !important;
+}
+.page-4-content{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    padding: 9% 0 0 9%;
+}
+.header-caption h4.text-capitalize,
+.page-4-content-2 h4 {
+    font-size: 3vw;
+}
+.page-4-head h1.text-capitalize {
+    font-size: 6vw;
+}
+.page-4-content-1 p.w-50 {
+    font-size: 2vw;
+}
+
+.p4-m-top {
+    margin-top: 5vw;
+}
+@media screen and (max-width:357px){
+    .page-4-content{
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        padding:5px;
+    }
+    button.btn.btn-lg.btn-outline-light.text-uppercase {
+        height: 20px;
+        font-size: 4px;
+    }
+}
+/* page-5 styles */
+.page-5-content .row .col i{
+    font-size: xxx-large;
+    line-height: 81px;
+}
+.pad{
+    padding: 160px 0px 160px 0px!important;
+}
+@media screen and (max-width:575px){
+    .pad{
+        padding: 80px 0px 80px 0px!important;
+    }
+}
+/* page-6 styles */
+
+header.page-6-header h3,
+.copy-rights ,.social i{
+    font-size: 2vw;
+}
+header.page-6-header,
+.page-6-footer {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding:15px;
+}
+.page-5-content .row .col-lg i {
+    font-size: 52px;
+}
+.page-5-content .row .col-lg h5{
+    font-size: 27px;
+} 
+.page-5-content .row .col-lg p{
+    font-size: 17px;
+}
+.list-for ul li{
+    list-style-type: none;
+}
+.brand-logo{
+    color:black;
+    font-family: cursive;
+}
+.p6-p-top{
+    padding: 13% 0 13% 0;
+}
+@media  screen and (max-width:768px) { 
+    .text-center-p6 {
+        text-align: center!important;
+    }
+}
